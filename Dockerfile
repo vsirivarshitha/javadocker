@@ -8,7 +8,7 @@ WORKDIR /app
 
 # copy the contents of working directory into the container at /app
 
-COPY ./app
+COPY . /app
 
 #compile the java program
 
